@@ -6,7 +6,7 @@ def game():
 	player = None
 
 	while player not in choices:
-		player = input("choose any one: rock, paper, scissors?:-> ").lower()
+		player = input("choose any one: rock, paper, or scissors?:-> ").lower()
 
 	if player==computer:
 		print("Computer: ",computer)
